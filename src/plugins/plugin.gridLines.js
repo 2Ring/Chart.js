@@ -270,7 +270,7 @@ module.exports = function(Chart) {
 	}
 
 	return {
-		id: 'gridLines',
+		id: 'gridlines',
 
 		beforeDatasetsDraw: function(chart) {
 			// Shut down the plugin if the chart is radar or polarArea

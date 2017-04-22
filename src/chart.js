@@ -52,7 +52,7 @@ var plugins = [];
 
 plugins.push(
     require('./plugins/plugin.filler.js')(Chart),
-    require('./plugins/plugin.gridLines.js')(Chart),
+    require('./plugins/plugin.gridlines.js')(Chart),
     require('./plugins/plugin.legend.js')(Chart),
     require('./plugins/plugin.title.js')(Chart)
 );
